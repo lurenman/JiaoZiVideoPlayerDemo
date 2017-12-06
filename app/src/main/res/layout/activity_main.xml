@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.lurenman.jiaozivideoplayerdemo.MainActivity">
+
+    <Button
+        android:id="@+id/bt_first"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="初步试用" />
+
+    <Button
+        android:id="@+id/bt_orientation"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="横屏状态" />
+    <Button
+        android:id="@+id/bt_Rotation"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="旋转屏幕" />
+
+    <Button
+        android:id="@+id/bt_ListView"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ListView展示" />
+
+    <Button
+        android:id="@+id/bt_RecyleView"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RecyleView展示" />
+
+    <Button
+        android:id="@+id/bt_TinyListView"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TinyListView展示" />
+
+
+    <Button
+        android:id="@+id/bt_TinyRecyleView"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TinyRecyleView展示" />
+
+    <Button
+        android:id="@+id/bt_Fullscreen"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fullscreen展示" />
+
+</LinearLayout>

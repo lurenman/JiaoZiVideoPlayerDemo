@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:background="@color/colorPrimary">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="旋转屏幕角度"
+            android:textSize="17sp"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+    <cn.jzvd.JZVideoPlayerStandard
+        android:id="@+id/jz_video"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+    <Button
+        android:id="@+id/rotation_to_90"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:text="Click to rotation to 90" />
+
+    <Button
+        android:id="@+id/video_image_display_fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="18dp"
+        android:text="Video Image Fill Parent" />
+
+    <Button
+        android:id="@+id/video_image_display_fill_crop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="3dp"
+        android:text="Video Image Fill Crop" />
+
+    <Button
+        android:id="@+id/video_image_diaplay_original"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="3dp"
+        android:text="Video Image Original" />
+</LinearLayout>
